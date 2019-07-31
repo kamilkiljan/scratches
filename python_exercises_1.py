@@ -28,14 +28,14 @@ def find_missing_numbers(nums, n_limit):
     return return_list
 
 
-def gen_decimals_in_range_with_steps(start=2, stop=5.5, step=0.5):
+def gen_dec_range(start, stop, step):
     """
     Generate list of decimals in selected range
     with defined step between them.
     Params:
-    start - start of range
-    stop - end of range (inclusive)
-    step - incremented value
+    - start - start of range
+    - stop - end of range (inclusive)
+    - step - incremented value
     """
     from decimal import Decimal
     return_list = []
